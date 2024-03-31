@@ -13,20 +13,25 @@ body {
 }
 h1 {
     font-size: 3rem;
+    color: white;
+}
+h2 {
+    font-size: 1.5rem;
 }
 .header {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #1c1a1a;
+    box-shadow: 0 0 2rem black;
+
 }
 .top-section {
-    background: green;
     display: flex;
     flex: 2;
 }
 #assumptions {
-    background: red;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -36,7 +41,7 @@ h1 {
     padding: 0 1.2rem 1rem 1.2rem;
 }
 #assumptions h2 {
-    margin-bottom: 1rem;
+    margin: 1rem 0;
 }
 #assumptions p {
     font-size: 1.1rem;
@@ -46,16 +51,24 @@ h1 {
 }
 #formula {
     flex: 1;
-    background: green;
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
-
+#formula img {
+    width: 80%;
+    border-radius: 2.5%;
+    box-shadow: 0 0 2.5rem #e8ebf0;
+}
 #info {
-    background: blue;
+    background: rgba(0,0,255,0.3);
     flex: 3;
 }
 
 .middle-bottom-section {
-    background: black;
+    /*background: black;*/
     bottom: -1rem;
     flex: 6;
 }
