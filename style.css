@@ -25,7 +25,21 @@ h2 {
     align-items: center;
     background: #1c1a1a;
     box-shadow: 0 0 2rem black;
+}
 
+#erlang-btn {
+    position: absolute;
+    right: 3%;
+    background: transparent;
+    border: 2px solid white;
+    padding: 1rem;
+    border-radius: 5%;
+    cursor: pointer;
+}
+#erlang-btn a {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
 }
 .top-section {
     display: flex;
