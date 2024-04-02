@@ -71,12 +71,17 @@ h2 {
 }
 #formula {
     padding: 1rem 1rem;
-    gap: 20%;
+    gap: 10%;
 }
 #formula img {
-    width: 90%;
     border-radius: 2.5%;
     box-shadow: 0 0 2.5rem #e8ebf0;
+}
+#img-GoS {
+    width: 75%;
+}
+#img-subGoS {
+    width: 30%;
 }
 #info {
     background: rgba(0,0,255,0.3);
