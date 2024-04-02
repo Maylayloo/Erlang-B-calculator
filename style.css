@@ -35,6 +35,10 @@ h2 {
     padding: 1rem;
     border-radius: 5%;
     cursor: pointer;
+    transition: padding .5s
+}
+#erlang-btn:hover {
+    padding: 1rem 1.5rem;
 }
 #erlang-btn a {
     font-size: 1rem;
@@ -47,7 +51,7 @@ h2 {
 }
 .top-section div {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     flex: 1;
@@ -67,10 +71,10 @@ h2 {
 }
 #formula {
     padding: 1rem 1rem;
-
+    gap: 20%;
 }
 #formula img {
-    width: 80%;
+    width: 90%;
     border-radius: 2.5%;
     box-shadow: 0 0 2.5rem #e8ebf0;
 }
