@@ -77,6 +77,16 @@ h2 {
     border-radius: 2.5%;
     box-shadow: 0 0 2.5rem #e8ebf0;
 }
+#info {
+    font-size: 1.08rem;
+    padding: 1rem 1rem 0 0;
+}
+#info span {
+    font-weight: bold;
+}
+#info p {
+    line-height: 1.7;
+}
 #img-GoS {
     width: 75%;
 }
@@ -84,7 +94,6 @@ h2 {
     width: 30%;
 }
 #info {
-    background: rgba(0,0,255,0.3);
     flex: 3;
 }
 
