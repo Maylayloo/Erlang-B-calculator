@@ -75,11 +75,14 @@ h2 {
 }
 #formula img {
     border-radius: 2.5%;
-    box-shadow: 0 0 2.5rem #e8ebf0;
+    box-shadow: 0 0 1.5rem #f7f8fa;
 }
 #info {
     font-size: 1.08rem;
     padding: 1rem 1rem 0 0;
+}
+#info h2 {
+    margin-bottom: 1rem;
 }
 #info span {
     font-weight: bold;
