@@ -103,6 +103,9 @@ h2 {
 .middle-bottom-section {
     bottom: -1rem;
     flex: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #wave {
     position: fixed;
